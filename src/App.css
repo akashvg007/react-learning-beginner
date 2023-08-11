@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.App h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.input {
+  display: flex;
+  gap: 10px;
+}
+.container input,button {
+  padding: 10px;
+}
+.cart-items {
+  margin-top: 20px;
+}
+.item-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.item {
+  height: 20px;
+  border: 1px solid #c4c4cc;
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.item-container button {
+  height: 40px !important;
+}
